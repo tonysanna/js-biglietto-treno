@@ -11,7 +11,7 @@ if (casualAge < 18) {
     var oldPrezzoBiglietto = prezzoBigliettoByKm * distanza * 0.6;
     document.getElementById('prezzoBiglietto').innerHTML = 'Il prezzo del bigletto: ' + oldAgePrezzoBiglietto.toFixed(2) +'€';
 } else {
-    var normalPrezzobiglietto = prezzoBigliettoByKm * distanza;
-    document.getElementById('prezzoBiglietto').innerHTML = 'Il prezzo del bigletto: ' + oldAgePrezzoBiglietto.toFixed(2) +'€';
+    var normalPrezzoBiglietto = prezzoBigliettoByKm * distanza;
+    document.getElementById('prezzoBiglietto').innerHTML = 'Il prezzo del bigletto: ' + normalPrezzoBiglietto.toFixed(2) +'€';
 
 }
